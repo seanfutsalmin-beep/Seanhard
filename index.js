@@ -988,8 +988,8 @@ return ctx.replyWithPhoto(
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
   ⸸ 𝐀𝐏𝐀 𝐘𝐆 𝐁𝐀𝐑𝐔 ⸸
-  ᯾  fix all f
-  ᯾  Tampilan neww
+  ᯾  fix all fisjjs
+  ᯾  Tampilan newnew
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
   ⸸ 𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬 ⸸
