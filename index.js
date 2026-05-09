@@ -117,7 +117,7 @@ const bot = new Telegraf(BOT_TOKEN);
 bot.use(session());
 
 //𝐊𝐎𝐃𝐄 𝐀𝐔𝐓𝐎 𝐔𝐏𝐃𝐀𝐓𝐄, 𝐍𝐎𝐓 𝐒𝐀𝐋𝐄 𝐂𝐑𝐄𝐃𝐈𝐓 @seanoffcx!!! 
-const UPDATE_REPO_RAW = "https://raw.githubusercontent.com/seanfutsalmin-beep/Zalin/main/index.js"; //ganti pake raw index js mu
+const UPDATE_REPO_RAW = "https://raw.githubusercontent.com/seanfutsalmin-beep/Seanhard/refs/heads/main/index.js"; //ganti pake raw index js mu
 
 bot.command("update", async (ctx) => {
   await ctx.reply("⏳ Sedang mengecek update terbaru...");
